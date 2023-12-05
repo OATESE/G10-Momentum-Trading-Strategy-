@@ -88,7 +88,16 @@ After generating portfolio values for a portfolio that is managed with a momentu
     \end{tabular}
 \end{table}
 
-The average monthly return for between december 1993 and octeber 2021 for the momentum portfolio is $0.11\%$ (2d.p.), and it is evident that even simple active strategies can quite easily exceed returns from a passively managed portfolio which averaged $0.05\%$ monthly returns. 
+The average monthly return for between december 1993 and octeber 2021 for the momentum portfolio is $0.11\%$ (2d.p.), and it is evident that even simple active strategies can quite easily exceed returns from a passively managed portfolio which averaged $0.05\%$ monthly returns. The standard deviation, which describes the average deviation for the portfolio returns from the expected (mean) return is lower for the momentum portfolio indicating less volatility. As a first measure of risk adjusted returns we compute the Sharpe ratio for each portfolio with equation (\ref{eq:5}). Notice that in the case study since we don't consider interest rate returns when holding foreign currencies we can assume $R_{f} = 0$, this will be elaborated further.  While more will be said about the validity of the sharpe ratios, the higher value for the momentum portfolio suggests a higher risk adjusted performance for the momentum (6,12) than the passive portfolio. The maximum drawdown, which is the largest cumulative reduction in portfolio value, $V_{t}$ over a period of time is calculated via equation (\ref{eq:6})
+
+\begin{equation}\label{eq:5}
+    S_{p}=\frac{E(R_{p})-R_{f}}{\sigma_{p}}=\frac{E(R_{p})}{\sigma_{p}}
+\end{equation}
+
+\begin{equation}\label{eq:6}
+        MDD = \text{max}_{t=1,...,T}\frac{-(V_{t}-\text{max}_{i=1,...,t-1}(V_{t-i}))}{(\text{max}_{i}(V_{t-i})}
+\end{equation}
+
 
 \newpage\section*{How would a practitioner make use of the findings of the case study?}
 
