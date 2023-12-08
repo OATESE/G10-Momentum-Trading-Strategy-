@@ -1,7 +1,6 @@
 ## Financial-Modelling-Individual-Project
 Financial Modelling Project worth 70* of grade. 
 
-## Breief : 
 # BEA3026 Financial Modelling Individual Assignment
 
 **Overview**
@@ -25,7 +24,6 @@ Your report should be structured as answers to the following questions:
    
 4. **What improvements could you make to the analysis if you had more time or better data?**
 
-### Case Study task
 
 # Case Study: Momentum Strategies for G10 Currencies
 
