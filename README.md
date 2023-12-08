@@ -1,5 +1,5 @@
 ## Financial-Modelling-Individual-Project
-Financial Modelling Project worth 70* of grade. 
+Financial Modelling Project worth 70* of grade. See Coursework Brief and description of the case study. Submission file uploaded and excel file
 
 # BEA3026 Financial Modelling Individual Assignment
 
